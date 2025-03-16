@@ -1,0 +1,16 @@
+
+# vscode config
+.vscode/
+
+# dependencies
+external/
+
+# build directory
+build/
+
+# executables
+*.exe
+*.out
+
+# nob build files
+nob.exe.old
