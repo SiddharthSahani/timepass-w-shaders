@@ -66,6 +66,7 @@ int main(int argc, const char **argv) {
     int numPoints = TextToInteger(argv[1]);
     int velVariance = TextToInteger(argv[2]);
 
+    SetTraceLogLevel(LOG_WARNING);
     InitWindow(WINDOW_WIDTH, WINDOW_HEIGHT, "Vornoi");
     SetTargetFPS(60);
 
